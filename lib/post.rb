@@ -1,9 +1,9 @@
 
 class Post
-  
-  attr_accessor :post 
-  
-  def initialize(post)
-    @post = post
+ 
+  attr_accessor :title
+ 
+  def initialize(title)
+    @title = title
   end
 end
